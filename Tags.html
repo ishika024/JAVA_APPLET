@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>JAVA_APPLET</title>
+		<link rel="shortcut icon" href="https://salzertechnologies.com/img/javalogo.png" >
+	</head>
+	<body>
+		<center><h1> APPLET PROGRAMMING</h1></center>
+		<p>Applet is a special type of program that is embedded in the webpage to generate the dynamic content. It runs inside the browser and works at client side.They are small, portable Java programs embedded in HTML pages and can run automatically when the pages are viewed.<br>The applet life cycle can be defined as the process of how the object is created, started, stopped, and destroyed during the entire execution of its application. It basically has five core methods namely init(), start(), stop(), paint() and destroy().</br>After a user receives an applet, the applet can produce a graphical user interface. It has limited access to resources so that it can run complex computations without introducing the risk of viruses or breaching data integrity.</p>
+		<p>To create an applet, a class must class extends <font color=black><b>java.applet.Applet</b> class.</p><br>
+		
+		<applet code="MyApplet.class" height=500 width=500>
+		 
+		</applet>
+		<applet code="IndianFlag_Applet.class" height=500 width=500>
+		 
+		</applet>
+		<h2>Hierarchy of Applet</h2>
+		<img src=https://static.javatpoint.com/images/applethierarchy.jpg height=400 width=200>
+		
+		<h2>Lifecycle of Java Applet</h2>
+		<ol>
+			<li><h3>init</h3>: This method is intended for whatever initialization is needed for your applet. It is called after the param tags inside the applet tag have been processed.</li>
+			<li><h3>started</h3>: This method is automatically called after the browser calls the init method. It is also called whenever the user returns to the page containing the applet after having gone off to other pages.</li>
+			<li><h3>paint</h3>: Invoked immediately after the start() method, and also any time the applet needs to repaint itself in the browser. The paint() method is actually inherited from the java.awt.</li>
+			<li><h3>stop</h3>: his method is automatically called when the user moves off the page on which the applet sits. It can, therefore, be called repeatedly in the same applet.</li>
+			<li><h3>destroy</h3>: This method is only called when the browser shuts down normally. Because applets are meant to live on an HTML page, you should not normally leave resources behind after a user leaves the page that contains the applet.</li>
+		</ol>
+		
+		<center><img src=life-cycle-applet.jfif height=500 width=500 ></center>
+		
+		<h2>Advantage of Applet</h2>
+		<ul>
+			<li>Various small tasks such as performing login, inventory checking, task scheduling can be done by applets running over Intranets. </li>
+			<li>As applet is a small java program, so it is platform independent code which is capable to run on any browser.</li>
+			<li>Applets creates and edit graphics on client-side which are different and independent of client-side platform.</li>
+			<li>Applets run on client browser so they provide functionality to import resources such as images, audio clips based on Url's.</li>
+			<li>It works at client side so less response time.</li>
+			<li>Secured</li>
+		</ul>
+	</body>
+</html>
