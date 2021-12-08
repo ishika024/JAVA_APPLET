@@ -40,6 +40,6 @@ public class IndianFlag_Applet extends Applet  // DECLARE GRAPHICS CLASS
 /*
    IN COMMAND PROMPT
    FOR COMPILE JAVA PROGRAM:        JAVAAC IndianFlag_Applet.java
-   FOR RUN JAVA PROGRAM:            appletviewer IndianFlag_Applet_Tags.html
+   FOR RUN JAVA PROGRAM:            appletviewer Tags.html
    
 */
